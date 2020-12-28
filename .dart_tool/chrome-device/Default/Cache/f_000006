@@ -1,0 +1,413 @@
+define(['dart_sdk', 'packages/flutter/src/material/icon_button.dart', 'packages/shop_app/screens/home/components/body.dart', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/material/colors.dart', 'packages/flutter_svg/svg.dart', 'packages/shop_app/constants.dart'], (function load__packages__shop_app__screens__home__home_screen_dart(dart_sdk, packages__flutter__src__material__icon_button$46dart, packages__shop_app__screens__home__components__body$46dart, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__material__colors$46dart, packages__flutter_svg__svg$46dart, packages__shop_app__constants$46dart) {
+  'use strict';
+  const core = dart_sdk.core;
+  const _interceptors = dart_sdk._interceptors;
+  const dart = dart_sdk.dart;
+  const dartx = dart_sdk.dartx;
+  const scaffold = packages__flutter__src__material__icon_button$46dart.src__material__scaffold;
+  const app_bar = packages__flutter__src__material__icon_button$46dart.src__material__app_bar;
+  const icon_button = packages__flutter__src__material__icon_button$46dart.src__material__icon_button;
+  const body = packages__shop_app__screens__home__components__body$46dart.screens__home__components__body;
+  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
+  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
+  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
+  const colors = packages__flutter__src__material__colors$46dart.src__material__colors;
+  const svg = packages__flutter_svg__svg$46dart.svg;
+  const constants = packages__shop_app__constants$46dart.constants;
+  var home_screen = Object.create(dart.library);
+  var _LocationL = () => (_LocationL = dart.constFn(dart.legacy(widget_inspector._Location)))();
+  var VoidToNull = () => (VoidToNull = dart.constFn(dart.fnType(core.Null, [])))();
+  var WidgetL = () => (WidgetL = dart.constFn(dart.legacy(framework.Widget)))();
+  var JSArrayOfWidgetL = () => (JSArrayOfWidgetL = dart.constFn(_interceptors.JSArray$(WidgetL())))();
+  const CT = Object.create(null);
+  var L0 = "package:shop_app/screens/home/home_screen.dart";
+  dart.defineLazy(CT, {
+    get C1() {
+      return C1 = dart.constList([], _LocationL());
+    },
+    get C0() {
+      return C0 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C1 || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 13,
+        [_Location_line]: 11,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C4() {
+      return C4 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "appBar",
+        [_Location_column]: 7,
+        [_Location_line]: 10,
+        [_Location_file]: null
+      });
+    },
+    get C5() {
+      return C5 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "body",
+        [_Location_column]: 7,
+        [_Location_line]: 11,
+        [_Location_file]: null
+      });
+    },
+    get C3() {
+      return C3 = dart.constList([C4 || CT.C4, C5 || CT.C5], _LocationL());
+    },
+    get C2() {
+      return C2 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C3 || CT.C3,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 9,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C8() {
+      return C8 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "assetName",
+        [_Location_column]: 32,
+        [_Location_line]: 20,
+        [_Location_file]: null
+      });
+    },
+    get C7() {
+      return C7 = dart.constList([C8 || CT.C8], _LocationL());
+    },
+    get C6() {
+      return C6 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C7 || CT.C7,
+        [_Location_name]: null,
+        [_Location_column]: 26,
+        [_Location_line]: 20,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C11() {
+      return C11 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 9,
+        [_Location_line]: 20,
+        [_Location_file]: null
+      });
+    },
+    get C12() {
+      return C12 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onPressed",
+        [_Location_column]: 9,
+        [_Location_line]: 21,
+        [_Location_file]: null
+      });
+    },
+    get C10() {
+      return C10 = dart.constList([C11 || CT.C11, C12 || CT.C12], _LocationL());
+    },
+    get C9() {
+      return C9 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C10 || CT.C10,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 19,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C15() {
+      return C15 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "assetName",
+        [_Location_column]: 13,
+        [_Location_line]: 26,
+        [_Location_file]: null
+      });
+    },
+    get C16() {
+      return C16 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 13,
+        [_Location_line]: 28,
+        [_Location_file]: null
+      });
+    },
+    get C14() {
+      return C14 = dart.constList([C15 || CT.C15, C16 || CT.C16], _LocationL());
+    },
+    get C13() {
+      return C13 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C14 || CT.C14,
+        [_Location_name]: null,
+        [_Location_column]: 28,
+        [_Location_line]: 25,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C19() {
+      return C19 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 11,
+        [_Location_line]: 25,
+        [_Location_file]: null
+      });
+    },
+    get C20() {
+      return C20 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onPressed",
+        [_Location_column]: 11,
+        [_Location_line]: 30,
+        [_Location_file]: null
+      });
+    },
+    get C18() {
+      return C18 = dart.constList([C19 || CT.C19, C20 || CT.C20], _LocationL());
+    },
+    get C17() {
+      return C17 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C18 || CT.C18,
+        [_Location_name]: null,
+        [_Location_column]: 9,
+        [_Location_line]: 24,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C23() {
+      return C23 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "assetName",
+        [_Location_column]: 13,
+        [_Location_line]: 34,
+        [_Location_file]: null
+      });
+    },
+    get C24() {
+      return C24 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "color",
+        [_Location_column]: 13,
+        [_Location_line]: 36,
+        [_Location_file]: null
+      });
+    },
+    get C22() {
+      return C22 = dart.constList([C23 || CT.C23, C24 || CT.C24], _LocationL());
+    },
+    get C21() {
+      return C21 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C22 || CT.C22,
+        [_Location_name]: null,
+        [_Location_column]: 28,
+        [_Location_line]: 33,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C27() {
+      return C27 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 11,
+        [_Location_line]: 33,
+        [_Location_file]: null
+      });
+    },
+    get C28() {
+      return C28 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onPressed",
+        [_Location_column]: 11,
+        [_Location_line]: 38,
+        [_Location_file]: null
+      });
+    },
+    get C26() {
+      return C26 = dart.constList([C27 || CT.C27, C28 || CT.C28], _LocationL());
+    },
+    get C25() {
+      return C25 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C26 || CT.C26,
+        [_Location_name]: null,
+        [_Location_column]: 9,
+        [_Location_line]: 32,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C31() {
+      return C31 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 18,
+        [_Location_line]: 40,
+        [_Location_file]: null
+      });
+    },
+    get C30() {
+      return C30 = dart.constList([C31 || CT.C31], _LocationL());
+    },
+    get C29() {
+      return C29 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C30 || CT.C30,
+        [_Location_name]: null,
+        [_Location_column]: 9,
+        [_Location_line]: 40,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    },
+    get C34() {
+      return C34 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "backgroundColor",
+        [_Location_column]: 7,
+        [_Location_line]: 17,
+        [_Location_file]: null
+      });
+    },
+    get C35() {
+      return C35 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "elevation",
+        [_Location_column]: 7,
+        [_Location_line]: 18,
+        [_Location_file]: null
+      });
+    },
+    get C36() {
+      return C36 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "leading",
+        [_Location_column]: 7,
+        [_Location_line]: 19,
+        [_Location_file]: null
+      });
+    },
+    get C37() {
+      return C37 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "actions",
+        [_Location_column]: 7,
+        [_Location_line]: 23,
+        [_Location_file]: null
+      });
+    },
+    get C33() {
+      return C33 = dart.constList([C34 || CT.C34, C35 || CT.C35, C36 || CT.C36, C37 || CT.C37], _LocationL());
+    },
+    get C32() {
+      return C32 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        [_Location_parameterLocations]: C33 || CT.C33,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 16,
+        [_Location_file]: "file:///C:/Users/atiwat/Documents/E-commerce-App-UI-Flutter-master/lib/screens/home/home_screen.dart"
+      });
+    }
+  }, false);
+  var C1;
+  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
+  var C0;
+  var C4;
+  var C5;
+  var C3;
+  var C2;
+  var C8;
+  var C7;
+  var C6;
+  var C11;
+  var C12;
+  var C10;
+  var C9;
+  var C15;
+  var C16;
+  var C14;
+  var C13;
+  var C19;
+  var C20;
+  var C18;
+  var C17;
+  var C23;
+  var C24;
+  var C22;
+  var C21;
+  var C27;
+  var C28;
+  var C26;
+  var C25;
+  var C31;
+  var C30;
+  var C29;
+  var C34;
+  var C35;
+  var C36;
+  var C37;
+  var C33;
+  var C32;
+  home_screen.HomeScreen = class HomeScreen extends framework.StatelessWidget {
+    build(context) {
+      return new scaffold.Scaffold.new({appBar: this.buildAppBar(), body: new body.Body.new({$creationLocationd_0dea112b090073317d4: C0 || CT.C0}), $creationLocationd_0dea112b090073317d4: C2 || CT.C2});
+    }
+    buildAppBar() {
+      return new app_bar.AppBar.new({backgroundColor: colors.Colors.white, elevation: 0.0, leading: new icon_button.IconButton.new({icon: new svg.SvgPicture.asset("assets/icons/back.svg", {$creationLocationd_0dea112b090073317d4: C6 || CT.C6}), onPressed: dart.fn(() => {
+          }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C9 || CT.C9}), actions: JSArrayOfWidgetL().of([new icon_button.IconButton.new({icon: new svg.SvgPicture.asset("assets/icons/search.svg", {color: constants.kTextColor, $creationLocationd_0dea112b090073317d4: C13 || CT.C13}), onPressed: dart.fn(() => {
+            }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C17 || CT.C17}), new icon_button.IconButton.new({icon: new svg.SvgPicture.asset("assets/icons/cart.svg", {color: constants.kTextColor, $creationLocationd_0dea112b090073317d4: C21 || CT.C21}), onPressed: dart.fn(() => {
+            }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C25 || CT.C25}), new basic.SizedBox.new({width: 20 / 2, $creationLocationd_0dea112b090073317d4: C29 || CT.C29})]), $creationLocationd_0dea112b090073317d4: C32 || CT.C32});
+    }
+  };
+  (home_screen.HomeScreen.new = function(opts) {
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    home_screen.HomeScreen.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+    ;
+  }).prototype = home_screen.HomeScreen.prototype;
+  dart.addTypeTests(home_screen.HomeScreen);
+  dart.addTypeCaches(home_screen.HomeScreen);
+  dart.setMethodSignature(home_screen.HomeScreen, () => ({
+    __proto__: dart.getMethods(home_screen.HomeScreen.__proto__),
+    build: dart.fnType(dart.legacy(framework.Widget), [dart.legacy(framework.BuildContext)]),
+    buildAppBar: dart.fnType(dart.legacy(app_bar.AppBar), [])
+  }));
+  dart.setLibraryUri(home_screen.HomeScreen, L0);
+  dart.trackLibraries("packages/shop_app/screens/home/home_screen.dart", {
+    "package:shop_app/screens/home/home_screen.dart": home_screen
+  }, {
+  }, '{"version":3,"sourceRoot":"","sources":["home_screen.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAO4B;AACxB,YAAO,oCACG,0BACF;IAEV;;AAGE,YAAO,0CACmB,gCACb,cACF,sCACU,yBAAM,4FACZ;4FAEI,uBACf,sCACmB,yBACf,mCAEO,0FAEE;uFAEb,sCACmB,yBACf,iCAEO,0FAEE;uFAEb,+BAA+B,KAAE;IAGvC;;;;;;EACF","file":"../../../../../../../packages/shop_app/screens/home/home_screen.dart.lib.js"}');
+  // Exports:
+  return {
+    screens__home__home_screen: home_screen
+  };
+}));
+
+//# sourceMappingURL=home_screen.dart.lib.js.map
